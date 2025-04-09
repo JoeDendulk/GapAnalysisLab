@@ -5,9 +5,6 @@ Identify the differences in configuration between Windows Server 2019 client "PC
 <br>
 <br>
 I used security templates to manage a Windows Server configuration, which included using the Microsoft Policy Analyzer to perform a security baseline template review and gap analysis.
-<br>
-<br>
-I used a lab environment provided by WGU.
 <br/>
 
 <h2>Tools and Languages Used</h2>
