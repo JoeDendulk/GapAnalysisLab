@@ -32,25 +32,25 @@ the Microsoft Security Compliance Toolkit 1.0.
 <br />
 <br />
   I copied the contents to C:\LABFILES from the disk it was saved to:
-<img src="https://i.imgur.com/JnnAvr3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JnnAvr3.png" height="80%" width="80%"/>
 <br />
 <br />
 Within Powershell, I extracted the folder contents with: Expand-Archive -Path PolicyAnalyzer.zip and Expand-Archive -Path "Windows 10 Version 1809 and Windows Server 2019 Security Baseline.zip". 
 <br />
 <br />
 Then executed C:\LABFILES\PolicyAnalyzer\PolicyAnalyzer_40\PolicyAnalyzer.exe to run the application: <br/>
-<img src="https://i.imgur.com/y1AzkR7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/y1AzkR7.png" height="80%" width="80%"/>
 <br />
 <br />
 Set Policy Rules sets in to: Windows 10 Version 1809 and Windows Server 2019 Security Baseline\Documentation
 <br />
 <br />
 Selected 'MSFT-Win10-v1809-RS5-WS2019-FINAL' to view/compare:  <br/>
-<img src="https://i.imgur.com/e3yRZLn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/e3yRZLn.png" height="80%" width="80%"/>
 <br />
 <br />
 At the bottom of the viewer, I noted LockoutBadCount was set to 10 and MinimumPasswordLength was set to 14.:  <br/>
-<img src="https://i.imgur.com/A9mNcwu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/A9mNcwu.png" height="80%" width="80%"/>
 <br />
 <br />
 From there, I ran "Compare to effective State" to perform a gap analysis between the baseline security template file and the current in-use values of the local operating system.
@@ -61,7 +61,7 @@ Many items were highlighted in yellow, indicating differences in baseline vs eff
 <br />
 The Effective state value of LockoutBadCount is 0, and MinimumPasswordLength is 7, making the PC10 system not in compliance with the security template.
 :  <br/>
-<img src="https://i.imgur.com/uDB6fzO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uDB6fzO.png" height="80%" width="80%"/>
 <br />
 <br />
   From here we can adjust the configuration based on the organization's particular security goals and scope. 
