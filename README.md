@@ -21,7 +21,7 @@ I used security templates to manage a Windows Server configuration, which includ
 
 <p align="center">
 Using winver command, I noted the Windows Server 2019 version number was 1809 and the OS Build number 17763.4377: <br/>
-<img src="https://i.imgur.com/cUDwlCi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cUDwlCi.png" height="80%" width="80%"/>
 <br />
 <br />
 I retrieved the Policy Analyzer and Windows 10 Version 1809 and Windows Server 2019 Security Baseline.zip from 
